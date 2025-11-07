@@ -30,10 +30,8 @@ export function middleware(req: NextRequest) {
     return
   }
 
-  // Rewrite root and any non-prefixed path to English content without changing the URL
-  const url = req.nextUrl.clone()
-  url.pathname = `/en${pathname === '/' ? '' : pathname}`
-  return NextRes.rewrite(url)
+  // Serve root and non-prefixed paths directly (English as default) — no rewrite
+  return
 }
 
 export const config = {

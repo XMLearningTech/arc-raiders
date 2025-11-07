@@ -155,3 +155,4 @@ MIT License
 - 2025-11-07：在 `app/[lang]/layout.tsx` 通过 Next.js `<Script>` 全局注入 Google Analytics 4 `gtag.js`，Measurement ID：`G-D2B8JR77WV`。覆盖所有页面的初次加载。
 - 2025-11-07：将英文设为根路径默认语言（无 `/en` 前缀）。新增 `middleware.ts` 将未加语言前缀的路径内部重写到 `/en`；更新 `components/Navigation.tsx` 使英文链接不含 `/en`；更新 `components/LanguageSwitcher.tsx` 切换到英文时跳转到无前缀路径；修正 `app/[lang]/layout.tsx` 与隐私页的 canonical/OG URL 在英文下不包含 `/en`。
 - 2025-11-07：为避免重复路径，新增从 `/en/:path*` 到 `/:path*` 的 308 永久重定向。
+- 2025-11-07：取消根路径到 `/en` 的内部重写；新增根级英文页面：`app/page.tsx`、`app/about/page.tsx`、`app/guides/page.tsx`、`app/videos/page.tsx`、`app/privacy/page.tsx`、`app/terms/page.tsx`；保留 `/en/:path*` → `/:path*` 的 308，以彻底只用根路径作为英文。
