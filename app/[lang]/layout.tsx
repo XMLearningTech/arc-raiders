@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import Script from "next/script";
 import { i18n, type Locale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionaries'
 import Navigation from "@/components/Navigation";
@@ -66,7 +67,7 @@ export async function generateMetadata(props: { params: Promise<{ lang: string }
     openGraph: {
       type: 'website',
       locale: locales[lang],
-      url: `https://arc-raiders.net/${lang}`,
+      url: lang === 'en' ? 'https://arc-raiders.net' : `https://arc-raiders.net/${lang}`,
       siteName: 'ARC Raiders Wiki',
       title: titles[lang],
       description: descriptions[lang],
@@ -86,9 +87,9 @@ export async function generateMetadata(props: { params: Promise<{ lang: string }
       images: ['/twitter-image.jpg'],
     },
     alternates: {
-      canonical: `https://arc-raiders.net/${lang}`,
+      canonical: lang === 'en' ? 'https://arc-raiders.net' : `https://arc-raiders.net/${lang}`,
       languages: {
-        'en': 'https://arc-raiders.net/en',
+        'en': 'https://arc-raiders.net',
         'zh': 'https://arc-raiders.net/zh',
         'ja': 'https://arc-raiders.net/ja',
       }
@@ -104,6 +105,13 @@ export default async function LangLayout(props: LayoutProps) {
   return (
     <html lang={lang}>
       <body className="bg-dark-bg text-white font-sans antialiased">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-D2B8JR77WV" strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-D2B8JR77WV');
+        `}</Script>
         <Navigation lang={lang} dict={dict} />
         <main className="min-h-screen">{props.children}</main>
         <Footer lang={lang} dict={dict} />

@@ -14,11 +14,12 @@ interface NavigationProps {
 }
 
 export default function Navigation({ lang, dict }: NavigationProps) {
+  const prefix = lang === 'en' ? '' : `/${lang}`
   const navItems = [
-    { name: dict.navigation.home, href: `/${lang}` },
-    { name: dict.navigation.about, href: `/${lang}/about` },
-    { name: dict.navigation.guides, href: `/${lang}/guides` },
-    { name: dict.navigation.videos, href: `/${lang}/videos` },
+    { name: dict.navigation.home, href: `${prefix || '/'}` },
+    { name: dict.navigation.about, href: `${prefix}/about` },
+    { name: dict.navigation.guides, href: `${prefix}/guides` },
+    { name: dict.navigation.videos, href: `${prefix}/videos` },
   ];
 
   return (
@@ -26,7 +27,7 @@ export default function Navigation({ lang, dict }: NavigationProps) {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href={`/${lang}`} className="text-2xl font-bold neon-text text-neon-cyan hover-glow">
+          <Link href={prefix || '/'} className="text-2xl font-bold neon-text text-neon-cyan hover-glow">
             ARC RAIDERS
           </Link>
 

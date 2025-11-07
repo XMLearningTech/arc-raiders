@@ -1,5 +1,35 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
+
+export function middleware(req: NextRequest) {
+  const { pathname } = req.nextUrl
+
+  // Skip Next internal, API and files with extensions
+  if (
+    pathname.startsWith('/_next') ||
+    pathname.startsWith('/api') ||
+    /\.[^/]+$/.test(pathname)
+  ) {
+    return
+  }
+
+  // Keep non-English locales as-is
+  if (pathname.startsWith('/zh') || pathname.startsWith('/ja')) {
+    return
+  }
+
+  // Rewrite root and any non-prefixed path to English content without changing the URL
+  const url = req.nextUrl.clone()
+  url.pathname = `/en${pathname === '/' ? '' : pathname}`
+  return NextResponse.rewrite(url)
+}
+
+export const config = {
+  matcher: ['/((?!_next|api|.*\\..*).*)'],
+}
+
+import { NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
 import { i18n } from './i18n/config'
 
 function getLocale(request: NextRequest): string {

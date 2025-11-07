@@ -13,14 +13,26 @@ export default function LanguageSwitcher() {
   const pathname = usePathname()
   const router = useRouter()
 
-  const currentLang = pathname.split('/')[1] as Locale || i18n.defaultLocale
+  const segments = pathname?.split('/') ?? []
+  const firstSeg = (segments[1] || '') as Locale
+  const currentLang = (i18n.locales as readonly string[]).includes(firstSeg) ? firstSeg : i18n.defaultLocale
 
   const switchLanguage = (newLang: Locale) => {
     if (!pathname) return
-    
-    const segments = pathname.split('/')
-    segments[1] = newLang
-    router.push(segments.join('/'))
+
+    const parts = pathname.split('/')
+    const first = parts[1]
+    const hasLocalePrefix = (i18n.locales as readonly string[]).includes(first as Locale)
+
+    // remove existing locale segment if present
+    const rest = hasLocalePrefix ? `/${parts.slice(2).join('/')}` : pathname
+    const normalizedRest = rest === '' || rest === '//' ? '/' : rest
+
+    if (newLang === 'en') {
+      router.push(normalizedRest === '/' ? '/' : normalizedRest)
+    } else {
+      router.push(`/${newLang}${normalizedRest === '/' ? '' : normalizedRest}`)
+    }
   }
 
   return (

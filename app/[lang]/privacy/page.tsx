@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   return {
     title: titles[lang],
     alternates: {
-      canonical: `https://arc-raiders.net/${lang}/privacy`,
+      canonical: lang === 'en' ? 'https://arc-raiders.net/privacy' : `https://arc-raiders.net/${lang}/privacy`,
     },
   }
 }
