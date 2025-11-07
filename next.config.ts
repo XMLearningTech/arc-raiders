@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  // 启用 standalone 输出用于 Docker
+  output: 'standalone',
+  
   // 启用压缩
   compress: true,
   
