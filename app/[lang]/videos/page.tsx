@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import type { Locale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionaries'
+import { BreadcrumbSchema } from '@/components/StructuredData'
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const resolvedParams = await params
@@ -11,7 +12,12 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: dict.videos.title,
     description: dict.videos.description,
     alternates: {
-      canonical: `https://arc-raiders.net/${lang}/videos`,
+      canonical: lang === 'en' ? 'https://arc-raiders.net/videos' : `https://arc-raiders.net/${lang}/videos`,
+      languages: {
+        'en': 'https://arc-raiders.net/videos',
+        'zh': 'https://arc-raiders.net/zh/videos',
+        'ja': 'https://arc-raiders.net/ja/videos',
+      },
     },
   }
 }
@@ -27,6 +33,12 @@ export default async function VideosPage({
 
   return (
     <div className="min-h-screen pt-24 pb-16">
+      <BreadcrumbSchema
+        items={[
+          { name: dict.navigation.home, url: 'https://arc-raiders.net' },
+          { name: dict.videos.title, url: lang === 'en' ? 'https://arc-raiders.net/videos' : `https://arc-raiders.net/${lang}/videos` },
+        ]}
+      />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 neon-text text-neon-purple">

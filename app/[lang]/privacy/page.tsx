@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import type { Locale } from '@/i18n/config'
+import { BreadcrumbSchema } from '@/components/StructuredData'
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const resolvedParams = await params
@@ -15,6 +16,11 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: titles[lang],
     alternates: {
       canonical: lang === 'en' ? 'https://arc-raiders.net/privacy' : `https://arc-raiders.net/${lang}/privacy`,
+      languages: {
+        'en': 'https://arc-raiders.net/privacy',
+        'zh': 'https://arc-raiders.net/zh/privacy',
+        'ja': 'https://arc-raiders.net/ja/privacy',
+      },
     },
   }
 }
@@ -148,6 +154,12 @@ export default async function PrivacyPage({
 
   return (
     <div className="min-h-screen pt-24 pb-16 bg-black/30">
+      <BreadcrumbSchema
+        items={[
+          { name: lang === 'en' ? 'Home' : lang === 'zh' ? '首页' : 'ホーム', url: 'https://arc-raiders.net' },
+          { name: pageContent.title, url: lang === 'en' ? 'https://arc-raiders.net/privacy' : `https://arc-raiders.net/${lang}/privacy` },
+        ]}
+      />
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center heading-white">

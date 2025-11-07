@@ -1,7 +1,23 @@
+import type { Metadata } from "next"
 import type { Locale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionaries'
 import Link from "next/link"
-import { WebsiteSchema } from "@/components/StructuredData"
+import { WebsiteSchema, BreadcrumbSchema } from "@/components/StructuredData"
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const resolvedParams = await params
+  const lang = resolvedParams.lang as Locale
+  return {
+    alternates: {
+      canonical: lang === 'en' ? 'https://arc-raiders.net' : `https://arc-raiders.net/${lang}`,
+      languages: {
+        'en': 'https://arc-raiders.net',
+        'zh': 'https://arc-raiders.net/zh',
+        'ja': 'https://arc-raiders.net/ja',
+      },
+    },
+  }
+}
 
 export default async function Home({
   params,
@@ -15,6 +31,11 @@ export default async function Home({
   return (
     <>
       <WebsiteSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: lang === 'en' ? 'Home' : lang === 'zh' ? '首页' : 'ホーム', url: 'https://arc-raiders.net' } as any,
+        ]}
+      />
       
       {/* Hero Section - 仿照官网风格 */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

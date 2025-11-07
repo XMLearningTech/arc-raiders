@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import type { Locale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionaries'
+import { BreadcrumbSchema } from '@/components/StructuredData'
 import Link from "next/link"
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -12,7 +13,12 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: dict.guides.title,
     description: dict.guides.description,
     alternates: {
-      canonical: `https://arc-raiders.net/${lang}/guides`,
+      canonical: lang === 'en' ? 'https://arc-raiders.net/guides' : `https://arc-raiders.net/${lang}/guides`,
+      languages: {
+        'en': 'https://arc-raiders.net/guides',
+        'zh': 'https://arc-raiders.net/zh/guides',
+        'ja': 'https://arc-raiders.net/ja/guides',
+      },
     },
   }
 }
@@ -37,6 +43,12 @@ export default async function GuidesPage({
 
   return (
     <div className="min-h-screen pt-24 pb-16 bg-gradient-to-b from-black via-gray-900 to-black">
+      <BreadcrumbSchema
+        items={[
+          { name: dict.navigation.home, url: 'https://arc-raiders.net' },
+          { name: dict.guides.title, url: lang === 'en' ? 'https://arc-raiders.net/guides' : `https://arc-raiders.net/${lang}/guides` },
+        ]}
+      />
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
