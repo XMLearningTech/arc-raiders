@@ -13,8 +13,20 @@ export function middleware(req: NextRequest) {
     return
   }
 
-  // Keep already-prefixed locales as-is (en/zh/ja)
-  if (pathname.startsWith('/en') || pathname.startsWith('/zh') || pathname.startsWith('/ja')) {
+  // Redirect any '/en' prefixed URL to root equivalent to avoid duplicate paths
+  if (pathname === '/en' || pathname === '/en/') {
+    const url = req.nextUrl.clone()
+    url.pathname = '/'
+    return NextRes.redirect(url, 308)
+  }
+  if (pathname.startsWith('/en/')) {
+    const url = req.nextUrl.clone()
+    url.pathname = pathname.replace(/^\/en/, '') || '/'
+    return NextRes.redirect(url, 308)
+  }
+
+  // Keep non-English locales as-is
+  if (pathname.startsWith('/zh') || pathname.startsWith('/ja')) {
     return
   }
 
