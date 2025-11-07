@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import type { Locale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionaries'
 
-export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const resolvedParams = await params
   const lang = resolvedParams.lang as Locale
   const dict = await getDictionary(lang)
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
 export default async function VideosPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const resolvedParams = await params
   const lang = resolvedParams.lang as Locale

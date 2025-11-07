@@ -1,17 +1,23 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { i18n, type Locale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionaries'
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import "../globals.css";
 
-export async function generateStaticParams() {
+type LayoutProps = {
+  params: Promise<{ lang: string }>;
+  children: ReactNode;
+}
+
+export async function generateStaticParams(): Promise<{ lang: Locale }[]> {
   return i18n.locales.map((locale) => ({ lang: locale }))
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
-  const resolvedParams = await params
-  const lang = resolvedParams.lang as Locale
+export async function generateMetadata(props: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const params = await props.params
+  const lang = params.lang as Locale
   
   const titles = {
     en: "ARC Raiders Wiki - Complete Strategy Guide & Tips",
@@ -90,22 +96,16 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
   }
 }
 
-export default async function LangLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: Promise<{ lang: Locale }>;
-}) {
-  const resolvedParams = await params
-  const lang = resolvedParams.lang as Locale
+export default async function LangLayout(props: LayoutProps) {
+  const params = await props.params
+  const lang = params.lang as Locale
   const dict = await getDictionary(lang)
 
   return (
     <html lang={lang}>
       <body className="bg-dark-bg text-white font-sans antialiased">
         <Navigation lang={lang} dict={dict} />
-        <main className="min-h-screen">{children}</main>
+        <main className="min-h-screen">{props.children}</main>
         <Footer lang={lang} dict={dict} />
       </body>
     </html>

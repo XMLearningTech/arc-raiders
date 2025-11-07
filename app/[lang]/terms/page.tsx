@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import type { Locale } from '@/i18n/config'
 
-export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const resolvedParams = await params
   const lang = resolvedParams.lang as Locale
   
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
 export default async function TermsPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const resolvedParams = await params
   const lang = resolvedParams.lang as Locale

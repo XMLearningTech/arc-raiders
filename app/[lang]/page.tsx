@@ -6,7 +6,7 @@ import { WebsiteSchema } from "@/components/StructuredData"
 export default async function Home({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const resolvedParams = await params
   const lang = resolvedParams.lang as Locale
