@@ -1,4 +1,8 @@
 import type { Metadata } from "next";
+import Script from "next/script";
+import { getDictionary } from '@/i18n/dictionaries'
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -25,10 +29,28 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return children;
+  const lang = 'en'
+  const dict = await getDictionary(lang)
+
+  return (
+    <html lang={lang}>
+      <body className="bg-dark-bg text-white font-sans antialiased">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-D2B8JR77WV" strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);} 
+          gtag('js', new Date());
+          gtag('config', 'G-D2B8JR77WV');
+        `}</Script>
+        <Navigation lang={lang} dict={dict} />
+        <main className="min-h-screen">{children}</main>
+        <Footer lang={lang} dict={dict} />
+      </body>
+    </html>
+  );
 }
