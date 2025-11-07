@@ -8,7 +8,7 @@ export default async function Home({
 }: {
   params: Promise<{ lang: Locale }>;
 }) {
-  const { lang } = await params
+  const { lang }: { lang: Locale } = await params
   const dict = await getDictionary(lang)
 
   return (

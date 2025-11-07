@@ -4,7 +4,7 @@ import { getDictionary } from '@/i18n/dictionaries'
 import Link from "next/link"
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang }: { lang: Locale } = await params
   const dict = await getDictionary(lang)
   
   return {
@@ -30,7 +30,7 @@ export default async function GuidesPage({
 }: {
   params: Promise<{ lang: Locale }>;
 }) {
-  const { lang } = await params
+  const { lang }: { lang: Locale } = await params
   const dict = await getDictionary(lang)
 
   return (

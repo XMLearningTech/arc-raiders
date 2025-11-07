@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang }: { lang: Locale } = await params
   
   const titles = {
     en: "ARC Raiders Wiki - Complete Strategy Guide & Tips",
@@ -96,7 +96,7 @@ export default async function LangLayout({
   children: React.ReactNode;
   params: Promise<{ lang: Locale }>;
 }) {
-  const { lang } = await params
+  const { lang }: { lang: Locale } = await params
   const dict = await getDictionary(lang)
 
   return (
