@@ -2,7 +2,8 @@ import type { Metadata } from "next"
 import type { Locale } from '@/i18n/config'
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
-  const { lang }: { lang: Locale } = await params
+  const resolvedParams = await params
+  const lang = resolvedParams.lang as Locale
   
   const titles = {
     en: "Terms of Service - ARC Raiders Wiki",
@@ -23,7 +24,8 @@ export default async function TermsPage({
 }: {
   params: Promise<{ lang: Locale }>;
 }) {
-  const { lang }: { lang: Locale } = await params
+  const resolvedParams = await params
+  const lang = resolvedParams.lang as Locale
   
   const content = {
     en: {

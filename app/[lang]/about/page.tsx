@@ -3,7 +3,8 @@ import type { Locale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionaries'
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
-  const { lang }: { lang: Locale } = await params
+  const resolvedParams = await params
+  const lang = resolvedParams.lang as Locale
   const dict = await getDictionary(lang)
   
   return {
@@ -20,7 +21,8 @@ export default async function AboutPage({
 }: {
   params: Promise<{ lang: Locale }>;
 }) {
-  const { lang }: { lang: Locale } = await params
+  const resolvedParams = await params
+  const lang = resolvedParams.lang as Locale
   const dict = await getDictionary(lang)
 
   return (
