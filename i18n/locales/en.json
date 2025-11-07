@@ -1,0 +1,163 @@
+{
+  "navigation": {
+    "home": "Home",
+    "guides": "Guides",
+    "videos": "Videos",
+    "about": "About"
+  },
+  "hero": {
+    "title": "ARC Raiders Wiki & Strategy Guide",
+    "subtitle": "Your ultimate ARC Raiders resource hub - Master gameplay with comprehensive ARC Raiders strategies, mechanics guides, and the latest game updates from Embark Studios",
+    "cta": "Explore ARC Raiders Guides",
+    "announcement": "🎮 ARC Raiders is the next-gen extraction shooter coming to PC, PlayStation 5, and Xbox Series X|S"
+  },
+  "sections": {
+    "enlist": {
+      "title": "Join the ARC Raiders Resistance",
+      "content": "Step into the frontlines of humanity's fight against mechanized threats in ARC Raiders. Every player becomes a tactical operative in this revolutionary extraction shooter. The experience combines intense combat with strategic gameplay - master combat mechanics, build your ultimate loadout, and lead your squad to victory."
+    },
+    "extraction": {
+      "title": "ARC Raiders Extraction Gameplay",
+      "content": "Experience thrilling extraction gameplay where every raid counts. Navigate dangerous ARC Raiders territories, secure valuable loot, and extract safely. Master optimal routes, learn risk management strategies, and maximize your survival chances in every high-stakes mission."
+    },
+    "immersive": {
+      "title": "Immersive ARC Raiders Universe",
+      "content": "Explore a richly detailed sci-fi world created by Embark Studios. Discover stunning environmental storytelling across diverse maps and locations. Experience dynamic weather systems, uncover hidden secrets, and see how every encounter shapes your journey through this post-apocalyptic universe."
+    },
+    "customization": {
+      "title": "Customize Your ARC Raiders Character",
+      "content": "Enjoy extensive character customization options in ARC Raiders. Shape your operative with unique appearance designs, select from diverse tactical gear, and optimize your equipment loadout. The arsenal includes powerful weapons, special abilities, and flexible playstyles. Create your perfect strategy that dominates in both PvE and PvP encounters."
+    },
+    "crossplay": {
+      "title": "ARC Raiders Cross-Platform Play",
+      "content": "Play with full cross-platform support across all systems. Join ARC Raiders squads with friends on PC, PlayStation 5, and Xbox Series X|S. The matchmaking system enables seamless gameplay, allowing players to communicate through integrated voice chat. Build your community and team up for missions regardless of platform."
+    },
+    "gameInfo": {
+      "title": "What is ARC Raiders?",
+      "content": "ARC Raiders is a highly anticipated free-to-play third-person PvPvE extraction shooter from Embark Studios. This innovative game combines cutting-edge gameplay mechanics with stunning visuals in a sci-fi future setting. Players face hostile AI machines and rival squads simultaneously, challenged to survive, extract valuable resources, and master the unique extraction shooter formula."
+    },
+    "platforms": {
+      "title": "ARC Raiders Platform Availability",
+      "content": "Available on PC via Steam and Epic Games Store, PlayStation 5, and Xbox Series X|S. ARC Raiders features full cross-platform play, allowing friends to squad up regardless of platform. Experience seamless gameplay across all systems with unified progression."
+    },
+    "news": {
+      "title": "Latest ARC Raiders News",
+      "content": "Stay updated with the latest announcements from Embark Studios. Get breaking news, ARC Raiders beta information, release date updates, and exclusive reveals. Follow development progress, watch new trailers, and be the first to know about community events."
+    },
+    "features": {
+      "title": "ARC Raiders Key Features",
+      "content": "This game revolutionizes the extraction shooter genre with innovative mechanics. Experience unique third-person perspective, tackle challenging AI enemies, engage in intense PvP battles, and master the high-stakes extraction system. Enjoy deep character progression and dynamic squad-based gameplay."
+    }
+  },
+  "faq": {
+    "title": "ARC Raiders Frequently Asked Questions",
+    "q1": {
+      "question": "What is ARC Raiders and what type of game is it?",
+      "answer": "ARC Raiders is a revolutionary free-to-play third-person PvPvE extraction shooter developed by Embark Studios. It combines tactical shooter mechanics with extraction gameplay, where you fight against AI-controlled machines and other players while extracting valuable loot. Offers a unique blend of cooperative and competitive gameplay."
+    },
+    "q2": {
+      "question": "When will ARC Raiders be released?",
+      "answer": "The official release date hasn't been announced by Embark Studios yet. The game is currently in development, and players can expect news about beta testing and launch dates soon. Follow official social channels for the latest release information."
+    },
+    "q3": {
+      "question": "Is ARC Raiders free to play?",
+      "answer": "Yes! Completely free-to-play on all platforms. You can download and play on PC (Steam, Epic Games Store), PlayStation 5, and Xbox Series X|S without any purchase required."
+    },
+    "q4": {
+      "question": "Does ARC Raiders support cross-platform play?",
+      "answer": "Absolutely! Features full cross-platform play between PC, PlayStation 5, and Xbox Series X|S players. You can form squads with friends regardless of their platform."
+    },
+    "q5": {
+      "question": "What platforms will ARC Raiders be available on?",
+      "answer": "Will launch on PC via Steam and Epic Games Store, PlayStation 5, and Xbox Series X|S. Optimized for next-gen consoles and modern PCs."
+    },
+    "q6": {
+      "question": "Who is developing ARC Raiders?",
+      "answer": "Developed by Embark Studios, a Stockholm-based game studio founded by former DICE developers. The team includes veterans who created the Battlefield series."
+    },
+    "q7": {
+      "question": "What makes ARC Raiders different from other extraction shooters?",
+      "answer": "Stands out with its third-person perspective, unique AI enemies, and innovative PvPvE mechanics. Unlike traditional extraction shooters, features mechanized threats and cutting-edge technology from Embark Studios."
+    },
+    "q8": {
+      "question": "Can I play ARC Raiders solo or do I need a squad?",
+      "answer": "Supports both solo and squad play. You can venture into missions alone or team up with friends. The matchmaking system helps solo players find teammates."
+    }
+  },
+  "cta": {
+    "title": "Ready to Master ARC Raiders?",
+    "description": "Join thousands of players preparing for launch. Explore our comprehensive ARC Raiders guides, master advanced tactics, and stay updated with the latest news from Embark Studios.",
+    "button": "Start Your ARC Raiders Journey"
+  },
+  "footer": {
+    "about": {
+      "title": "About This Wiki",
+      "description": "Your ultimate resource - The #1 community hub for guides, news, and strategies"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "guides": "Strategy Guides",
+      "videos": "Videos",
+      "about": "About"
+    },
+    "community": {
+      "title": "Community",
+      "discord": "Join Discord",
+      "twitter": "Follow Twitter",
+      "youtube": "Watch YouTube",
+      "reddit": "Reddit"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "© 2024 ARC-Raiders.net. All rights reserved. ARC Raiders is a trademark of Embark Studios AB."
+  },
+  "guides": {
+    "title": "ARC Raiders Strategy Guides & Tips",
+    "description": "Master the game with our comprehensive collection of ARC Raiders gameplay guides, combat strategies, and survival tips.",
+    "categories": {
+      "beginner": {
+        "title": "ARC Raiders Beginner Guides",
+        "description": "Essential tips for new players"
+      },
+      "combat": {
+        "title": "Combat Strategies",
+        "description": "Advanced combat tactics and weapon mastery"
+      },
+      "extraction": {
+        "title": "Extraction Tips",
+        "description": "Master extraction mechanics and survival"
+      },
+      "loadout": {
+        "title": "Loadout Builds",
+        "description": "Optimized equipment recommendations"
+      },
+      "map": {
+        "title": "Map Guides",
+        "description": "Detailed map knowledge and locations"
+      },
+      "advanced": {
+        "title": "Advanced Tactics",
+        "description": "Pro-level strategies for competitive play"
+      }
+    }
+  },
+  "videos": {
+    "title": "ARC Raiders Video Gallery",
+    "description": "Watch the latest gameplay videos, official trailers, and tutorials."
+  },
+  "about": {
+    "title": "About ARC-Raiders.net Wiki",
+    "mission": {
+      "title": "Our Mission",
+      "content": "We are dedicated to providing the most comprehensive and up-to-date information available. Our wiki helps players of all skill levels master gameplay through detailed guides, proven strategies, and essential community resources. Whether you're learning basic mechanics or perfecting advanced tactics, we're here to help every player succeed."
+    },
+    "coverage": {
+      "title": "Complete Coverage",
+      "content": "From beginner tutorials to advanced tactics, weapon guides to map strategies, character builds to extraction tips - we cover every aspect to help you succeed in your missions. Get the latest news, patch notes, and community updates all in one place."
+    }
+  }
+}

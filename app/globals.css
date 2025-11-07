@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0f;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* 柔和的文字发光效果 - 减少闪烁感 */
+.neon-text {
+  text-shadow: 
+    0 0 8px rgba(0, 255, 255, 0.3),
+    0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+.text-glow-subtle {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.neon-border {
+  box-shadow: 
+    0 0 3px currentColor,
+    0 0 8px rgba(0, 255, 255, 0.2);
+}
+
+/* 毛玻璃效果 - 更柔和 */
+.glass {
+  background: rgba(10, 10, 15, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* 渐变背景 - 更深邃 */
+.gradient-bg {
+  background: linear-gradient(135deg, #0a0a0f 0%, #16182e 50%, #1a1d3a 100%);
+}
+
+/* 背景图片叠加 */
+.hero-bg {
+  background-image: 
+    linear-gradient(to bottom, rgba(10, 10, 15, 0.85), rgba(10, 10, 15, 0.95)),
+    url('/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* 柔和悬停效果 */
+.hover-glow {
+  transition: all 0.3s ease;
+}
+
+.hover-glow:hover {
+  box-shadow: 
+    0 0 15px rgba(0, 255, 255, 0.2),
+    0 0 25px rgba(0, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* 彩虹条纹 - 仿照官网 */
+.rainbow-stripes {
+  background: linear-gradient(
+    to bottom,
+    #00d9ff 0%,
+    #00ff9f 20%,
+    #ffeb3b 40%,
+    #ff9800 60%,
+    #f44336 80%,
+    #e91e63 100%
+  );
+}
+
+/* 颜色类 - 增加视觉层次 */
+.text-primary {
+  color: #ffffff;
+}
+
+.text-secondary {
+  color: #00d9ff;
+}
+
+.text-accent {
+  color: #00ff9f;
+}
+
+.text-warning {
+  color: #ffeb3b;
+}
+
+.text-muted {
+  color: #9ca3af;
+}
+
+.text-light {
+  color: #d1d5db;
+}
+
+/* 标题颜色变化 */
+.heading-gradient {
+  background: linear-gradient(135deg, #00d9ff, #00ff9f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heading-white {
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* 按钮样式 - 仿照官网 */
+.btn-primary {
+  background: linear-gradient(135deg, #00d9ff, #00b4d8);
+  color: #0a0a0f;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 217, 255, 0.3);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #00b4d8, #0096c7);
+  box-shadow: 0 6px 20px rgba(0, 217, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 14px 32px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* 卡片样式优化 */
+.card-hover {
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-hover:hover {
+  border-color: rgba(0, 217, 255, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}

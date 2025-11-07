@@ -1,0 +1,163 @@
+{
+  "navigation": {
+    "home": "首页",
+    "guides": "攻略",
+    "videos": "视频",
+    "about": "关于"
+  },
+  "hero": {
+    "title": "ARC Raiders 官方维基与攻略指南",
+    "subtitle": "你的终极 ARC Raiders 资源中心 - 通过全面的策略、ARC Raiders 机制指南和 Embark Studios 发布的最新 ARC Raiders 游戏更新，掌握 ARC Raiders 游戏玩法",
+    "cta": "探索 ARC Raiders 攻略",
+    "announcement": "🎮 ARC Raiders 是即将登陆 PC、PlayStation 5 和 Xbox Series X|S 的次世代提取射击游戏"
+  },
+  "sections": {
+    "enlist": {
+      "title": "加入抵抗组织",
+      "content": "加入 ARC Raiders 抵抗军，对抗机械化的 ARC 威胁。在 ARC Raiders 中，每位玩家都将成为为人类生存而战的战术特工。精通 ARC Raiders 战斗机制，构建你的 ARC Raiders 装备，带领你的小队在这款紧张刺激的 ARC Raiders 提取射击游戏中取得胜利。"
+    },
+    "extraction": {
+      "title": "提取冒险",
+      "content": "体验惊心动魄的 ARC Raiders 提取玩法，每次突袭都至关重要。穿越危险的 ARC Raiders 领土，获取宝贵的 ARC Raiders 战利品，并在时间耗尽前安全撤离。学习 ARC Raiders 撤离路线，掌握 ARC Raiders 风险管理，在每次任务中最大化你的 ARC Raiders 生存机会。"
+    },
+    "immersive": {
+      "title": "沉浸式世界",
+      "content": "探索充满神秘和危险的丰富 ARC Raiders 宇宙。发现 ARC Raiders 环境叙事，揭开 ARC Raiders 隐藏的秘密，穿越动态的 ARC Raiders 天气系统。每个 ARC Raiders 地点都在讲述一个故事，每次 ARC Raiders 遭遇都塑造着你在这个后启示录 ARC Raiders 世界中的旅程。"
+    },
+    "customization": {
+      "title": "塑造你的突袭者",
+      "content": "通过丰富的选项自定义你的 ARC Raiders 角色。设计你独特的 ARC Raiders 外观，选择你的 ARC Raiders 战术装备，优化你的 ARC Raiders 装备配置。从多样的 ARC Raiders 武器中选择，解锁 ARC Raiders 能力，创造符合你战斗策略的完美 ARC Raiders 游戏风格。"
+    },
+    "crossplay": {
+      "title": "跨平台社交",
+      "content": "与所有平台的 ARC Raiders 玩家联合作战。在 PC、PlayStation 和 Xbox 上与朋友组建 ARC Raiders 小队。体验无缝的 ARC Raiders 跨平台匹配，通过 ARC Raiders 集成语音聊天进行交流，无论你的游戏平台如何，都能建立你的 ARC Raiders 社区。"
+    },
+    "gameInfo": {
+      "title": "关于 ARC Raiders",
+      "content": "ARC Raiders 是由 Embark Studios 开发的即将推出的免费第三人称 PvPvE 提取射击游戏。设定在科幻未来，ARC Raiders 让玩家对抗敌对机器（ARC）和其他玩家小队，争取生存并提取宝贵的资源。"
+    },
+    "platforms": {
+      "title": "ARC Raiders 平台可用性",
+      "content": "ARC Raiders 将在 PC（Steam、Epic Games 商店）、PlayStation 5 和 Xbox Series X|S 上提供。ARC Raiders 具有完整的跨平台游戏功能，允许朋友无论使用何种游戏平台都能组队。在所有平台上无缝体验 ARC Raiders，统一进度。"
+    },
+    "news": {
+      "title": "ARC Raiders 最新资讯",
+      "content": "及时了解 Embark Studios 发布的 ARC Raiders 最新公告。获取 ARC Raiders 突发新闻、ARC Raiders 测试版信息、ARC Raiders 发布日期更新和独家 ARC Raiders 内容揭秘。关注 ARC Raiders 开发进展，观看最新的 ARC Raiders 预告片，第一时间了解 ARC Raiders 社区活动和锦标赛信息。"
+    },
+    "features": {
+      "title": "ARC Raiders 核心特性",
+      "content": "ARC Raiders 以创新机制革新提取射击游戏类型。体验 ARC Raiders 独特的第三人称视角，挑战富有挑战性的 ARC Raiders AI 敌人，参与激烈的 ARC Raiders PvP 战斗，掌握高风险的 ARC Raiders 提取系统。ARC Raiders 提供深度角色进展、广泛的 ARC Raiders 武器定制和动态的 ARC Raiders 小队游戏玩法。"
+    }
+  },
+  "faq": {
+    "title": "ARC Raiders 常见问题",
+    "q1": {
+      "question": "什么是 ARC Raiders？",
+      "answer": "ARC Raiders 是一款免费的第三人称 PvPvE 提取射击游戏，你需要在对抗 AI 控制的 ARC 机器和其他玩家的同时，尝试提取宝贵的战利品。"
+    },
+    "q2": {
+      "question": "ARC Raiders 何时发布？",
+      "answer": "ARC Raiders 的官方发布日期尚未公布。请继续关注 Embark Studios 的更新。"
+    },
+    "q3": {
+      "question": "ARC Raiders 是免费游戏吗？",
+      "answer": "是的！ARC Raiders 在包括 PC、PlayStation 5 和 Xbox Series X|S 在内的所有平台上完全免费游玩。"
+    },
+    "q4": {
+      "question": "ARC Raiders 支持跨平台游戏吗？",
+      "answer": "是的，ARC Raiders 在 PC、PlayStation 5 和 Xbox Series X|S 玩家之间支持完整的跨平台游戏。"
+    },
+    "q5": {
+      "question": "ARC Raiders 是什么类型的游戏？",
+      "answer": "ARC Raiders 是一款 PvPvE 提取射击游戏，结合了战术射击机制和提取玩法，你需要与 AI 敌人和其他玩家竞争。"
+    },
+    "q6": {
+      "question": "谁在开发 ARC Raiders？",
+      "answer": "ARC Raiders 由 Embark Studios 开发，该工作室由前 DICE 开发人员创立，他们因创作《战地》系列而闻名。"
+    },
+    "q7": {
+      "question": "ARC Raiders 与其他提取射击游戏有何不同？",
+      "answer": "ARC Raiders 以其第三人称视角、独特的 ARC Raiders AI 敌人和创新的 PvPvE 机制脱颖而出。与传统提取射击游戏不同，ARC Raiders 具有机械化威胁、跨平台游戏和 Embark Studios 的尖端技术。ARC Raiders 将易上手性与深度战术游戏相结合，既欢迎新手，又为硬核 ARC Raiders 老玩家提供复杂性。"
+    },
+    "q8": {
+      "question": "ARC Raiders 可以单人游玩还是需要组队？",
+      "answer": "ARC Raiders 同时支持单人和组队游玩。你可以独自进入 ARC Raiders 任务，也可以与朋友组成 ARC Raiders 小队。ARC Raiders 匹配系统帮助单人玩家寻找队友，或者你可以独自勇敢面对 ARC Raiders 挑战。ARC Raiders 游戏玩法适应不同的游戏风格，无论你喜欢独狼战术还是协调的 ARC Raiders 团队策略。"
+    }
+  },
+  "cta": {
+    "title": "准备加入 ARC Raiders？",
+    "description": "探索全面的 ARC Raiders 指南，掌握高级 ARC Raiders 战术，了解最新的 ARC Raiders 资讯。无论你是 ARC Raiders 新手还是资深突袭者，我们的 ARC Raiders 维基都能为你提供主宰战场所需的一切。",
+    "button": "浏览 ARC Raiders 攻略"
+  },
+  "footer": {
+    "about": {
+      "title": "关于 ARC Raiders",
+      "description": "你的终极 ARC Raiders 攻略目的地"
+    },
+    "quickLinks": {
+      "title": "快速链接",
+      "home": "首页",
+      "guides": "策略攻略",
+      "videos": "视频内容",
+      "about": "关于我们"
+    },
+    "community": {
+      "title": "社区",
+      "discord": "Discord",
+      "twitter": "Twitter",
+      "youtube": "YouTube",
+      "reddit": "Reddit"
+    },
+    "legal": {
+      "title": "法律",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    },
+    "copyright": "© 2024 ARC-Raiders.net. 保留所有权利。ARC Raiders 是 Embark Studios AB 的商标。"
+  },
+  "guides": {
+    "title": "ARC Raiders 策略指南与技巧",
+    "description": "通过我们全面的游戏指南、战斗策略和生存技巧集合掌握 ARC Raiders",
+    "categories": {
+      "beginner": {
+        "title": "ARC Raiders 新手指南",
+        "description": "新玩家开始旅程的基本 ARC Raiders 技巧"
+      },
+      "combat": {
+        "title": "ARC Raiders 战斗策略",
+        "description": "高级 ARC Raiders 战斗战术和武器精通指南"
+      },
+      "extraction": {
+        "title": "ARC Raiders 提取技巧",
+        "description": "掌握 ARC Raiders 提取机制并最大化生存率"
+      },
+      "loadout": {
+        "title": "ARC Raiders 装备构建",
+        "description": "优化的 ARC Raiders 装备和武器配置推荐"
+      },
+      "map": {
+        "title": "ARC Raiders 地图指南",
+        "description": "详细的 ARC Raiders 地图知识和战略位置指南"
+      },
+      "advanced": {
+        "title": "ARC Raiders 高级战术",
+        "description": "专业级 ARC Raiders 策略，适合经验丰富的突袭者"
+      }
+    }
+  },
+  "videos": {
+    "title": "ARC Raiders 视频库",
+    "description": "观看最新的 ARC Raiders 游戏视频、预告片和社区内容"
+  },
+  "about": {
+    "title": "关于 ARC-Raiders.net",
+    "mission": {
+      "title": "我们的使命",
+      "content": "ARC-Raiders.net 致力于提供关于 ARC Raiders 最全面和最新的信息。我们旨在通过详细的指南、策略和社区资源帮助所有技能水平的玩家掌握游戏。"
+    },
+    "coverage": {
+      "title": "我们的内容",
+      "content": "从新手教程到高级战术，从武器指南到地图策略，我们涵盖 ARC Raiders 的各个方面，帮助你在任务中取得成功。"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "navigation": {
+    "home": "ホーム",
+    "guides": "ガイド",
+    "videos": "動画",
+    "about": "概要"
+  },
+  "hero": {
+    "title": "ARC Raiders 公式Wiki&攻略ガイド",
+    "subtitle": "究極の ARC Raiders リソースハブ - 包括的な戦略、ARC Raiders メカニクスガイド、Embark Studios からの最新 ARC Raiders ゲームアップデートで ARC Raiders ゲームプレイをマスター",
+    "cta": "ARC Raiders ガイドを探索",
+    "announcement": "🎮 ARC Raiders は PC、PlayStation 5、Xbox Series X|S に登場する次世代抽出シューターです"
+  },
+  "sections": {
+    "enlist": {
+      "title": "入隊して抵抗する",
+      "content": "ARC Raiders レジスタンスに参加し、機械化された ARC の脅威と戦いましょう。ARC Raiders では、すべてのプレイヤーが人類の生存のために戦う戦術工作員になります。ARC Raiders の戦闘メカニクスをマスターし、ARC Raiders のロードアウトを構築し、この激しい ARC Raiders 抽出シューター体験で勝利へとチームを導きましょう。"
+    },
+    "extraction": {
+      "title": "抽出アドベンチャー",
+      "content": "すべての襲撃が重要なスリリングな ARC Raiders 抽出ゲームプレイを体験しましょう。危険な ARC Raiders の領域をナビゲートし、貴重な ARC Raiders の戦利品を確保し、時間切れになる前に安全に脱出します。ARC Raiders の抽出ルートを学び、ARC Raiders のリスク管理をマスターし、すべてのミッションで ARC Raiders の生存率を最大化しましょう。"
+    },
+    "immersive": {
+      "title": "没入型の世界",
+      "content": "神秘と危険に満ちた豊かな詳細の ARC Raiders ユニバースを探索しましょう。ARC Raiders の環境ストーリーテリングを発見し、ARC Raiders の隠された秘密を明らかにし、動的な ARC Raiders の天候システムをナビゲートします。すべての ARC Raiders の場所が物語を語り、すべての ARC Raiders の遭遇がこのポストアポカリプス ARC Raiders の世界でのあなたの旅を形作ります。"
+    },
+    "customization": {
+      "title": "レイダーを形作る",
+      "content": "豊富なオプションで ARC Raiders キャラクターをカスタマイズしましょう。ユニークな ARC Raiders の外観をデザインし、ARC Raiders の戦術装備を選択し、ARC Raiders の装備ロードアウトを最適化します。多様な ARC Raiders の武器から選択し、ARC Raiders のアビリティをアンロックし、戦闘戦略に合った完璧な ARC Raiders のプレイスタイルを作成しましょう。"
+    },
+    "crossplay": {
+      "title": "クロスプラットフォームソーシャル",
+      "content": "すべてのプラットフォームの ARC Raiders プレイヤーと団結しましょう。PC、PlayStation、Xbox の友達と ARC Raiders スクワッドを結成します。シームレスな ARC Raiders クロスプラットフォームマッチメイキングを体験し、ARC Raiders 統合ボイスチャットを通じてコミュニケーションを取り、ゲームプラットフォームに関係なく ARC Raiders コミュニティを構築しましょう。"
+    },
+    "gameInfo": {
+      "title": "ARC Raiders について",
+      "content": "ARC Raiders は、Embark Studios が開発する予定の基本プレイ無料のサードパーソン PvPvE 抽出シューターです。SF の未来を舞台に、ARC Raiders はプレイヤーを敵対的な機械（ARC）と他のプレイヤースクワッドの両方と戦わせ、生き残り、貴重なリソースを抽出します。"
+    },
+    "platforms": {
+      "title": "ARC Raiders プラットフォーム対応",
+      "content": "ARC Raiders は、PC（Steam、Epic Games Store）、PlayStation 5、Xbox Series X|S で利用可能です。ARC Raiders は完全なクロスプラットフォームプレイを備えており、ゲームプラットフォームに関係なく友達とスクワッドを組むことができます。統一された進行状況で、すべてのプラットフォームで ARC Raiders をシームレスに体験しましょう。"
+    },
+    "news": {
+      "title": "最新 ARC Raiders ニュース",
+      "content": "Embark Studios からの最新 ARC Raiders 発表を常に最新の状態に保ちましょう。速報 ARC Raiders ニュース、ARC Raiders ベータ情報、ARC Raiders リリース日の更新、独占 ARC Raiders 公開を入手してください。ARC Raiders の開発進捗をフォローし、新しい ARC Raiders トレーラーを視聴し、ARC Raiders コミュニティイベントやトーナメントについて最初に知りましょう。"
+    },
+    "features": {
+      "title": "ARC Raiders 主要機能",
+      "content": "ARC Raiders は革新的なメカニクスで抽出シューターのジャンルに革命をもたらします。ARC Raiders のユニークなサードパーソン視点を体験し、挑戦的な ARC Raiders AI 敵に立ち向かい、激しい ARC Raiders PvP バトルに参加し、ハイステークスな ARC Raiders 抽出システムをマスターしましょう。ARC Raiders は深いキャラクター進行、広範な ARC Raiders 武器カスタマイズ、ダイナミックな ARC Raiders スクワッドベースのゲームプレイを提供します。"
+    }
+  },
+  "faq": {
+    "title": "ARC Raiders よくある質問",
+    "q1": {
+      "question": "ARC Raiders とは何ですか？",
+      "answer": "ARC Raiders は、AI 制御の ARC マシンと他のプレイヤーの両方と戦いながら、貴重な戦利品を抽出しようとする基本プレイ無料のサードパーソン PvPvE 抽出シューターです。"
+    },
+    "q2": {
+      "question": "ARC Raiders はいつリリースされますか？",
+      "answer": "公式の ARC Raiders リリース日はまだ発表されていません。Embark Studios からのアップデートをお待ちください。"
+    },
+    "q3": {
+      "question": "ARC Raiders は無料でプレイできますか？",
+      "answer": "はい！ARC Raiders は、PC、PlayStation 5、Xbox Series X|S を含むすべてのプラットフォームで完全に基本プレイ無料です。"
+    },
+    "q4": {
+      "question": "ARC Raiders はクロスプラットフォームプレイをサポートしていますか？",
+      "answer": "はい、ARC Raiders は PC、PlayStation 5、Xbox Series X|S プレイヤー間で完全なクロスプラットフォームプレイをサポートしています。"
+    },
+    "q5": {
+      "question": "ARC Raiders はどんなタイプのゲームですか？",
+      "answer": "ARC Raiders は、タクティカルシューターメカニクスと抽出ゲームプレイを組み合わせた PvPvE 抽出シューターで、AI の敵と他のプレイヤーと競争します。"
+    },
+    "q6": {
+      "question": "ARC Raiders は誰が開発していますか？",
+      "answer": "ARC Raiders は、Battlefield シリーズの制作で知られる元 DICE 開発者によって設立された Embark Studios によって開発されています。"
+    },
+    "q7": {
+      "question": "ARC Raiders は他の抽出シューターと何が違いますか？",
+      "answer": "ARC Raiders は、サードパーソン視点、ユニークな ARC Raiders AI 敵、革新的な PvPvE メカニクスで際立っています。従来の抽出シューターとは異なり、ARC Raiders は機械化された脅威、クロスプラットフォームプレイ、Embark Studios の最先端技術を特徴としています。ARC Raiders は、アクセシビリティと深い戦術的ゲームプレイを組み合わせ、新規プレイヤーを歓迎しながら、ハードコア ARC Raiders ベテランに複雑さを提供します。"
+    },
+    "q8": {
+      "question": "ARC Raiders はソロでプレイできますか、それともスクワッドが必要ですか？",
+      "answer": "ARC Raiders はソロとスクワッドの両方のプレイをサポートしています。ARC Raiders ミッションに単独で挑戦することも、友達と ARC Raiders スクワッドを組むこともできます。ARC Raiders マッチメイキングシステムはソロプレイヤーがチームメイトを見つけるのを助けるか、ARC Raiders の挑戦を独立して勇敢に立ち向かうことができます。ARC Raiders ゲームプレイは、ローンウルフ戦術を好むか、調整された ARC Raiders チーム戦略を好むかにかかわらず、さまざまなプレイスタイルに適応します。"
+    }
+  },
+  "cta": {
+    "title": "ARC Raiders に参加する準備はできましたか？",
+    "description": "包括的な ARC Raiders ガイドを探索し、高度な ARC Raiders 戦術をマスターし、最新の ARC Raiders ニュースで最新情報を入手しましょう。ARC Raiders の初心者でもベテランレイダーでも、私たちの ARC Raiders wiki には戦場を支配するために必要なすべてがあります。",
+    "button": "ARC Raiders ガイドを見る"
+  },
+  "footer": {
+    "about": {
+      "title": "ARC Raiders について",
+      "description": "究極の ARC Raiders ガイド目的地"
+    },
+    "quickLinks": {
+      "title": "クイックリンク",
+      "home": "ホーム",
+      "guides": "戦略ガイド",
+      "videos": "動画コンテンツ",
+      "about": "概要"
+    },
+    "community": {
+      "title": "コミュニティ",
+      "discord": "Discord",
+      "twitter": "Twitter",
+      "youtube": "YouTube",
+      "reddit": "Reddit"
+    },
+    "legal": {
+      "title": "法的情報",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    },
+    "copyright": "© 2024 ARC-Raiders.net. All rights reserved. ARC Raiders は Embark Studios AB の商標です。"
+  },
+  "guides": {
+    "title": "ARC Raiders 戦略ガイド＆ヒント",
+    "description": "包括的なゲームプレイガイド、戦闘戦略、サバイバルヒントのコレクションで ARC Raiders をマスターしましょう",
+    "categories": {
+      "beginner": {
+        "title": "ARC Raiders 初心者ガイド",
+        "description": "旅を始める新しいプレイヤーのための基本的な ARC Raiders のヒント"
+      },
+      "combat": {
+        "title": "ARC Raiders 戦闘戦略",
+        "description": "高度な ARC Raiders 戦闘戦術と武器マスタリーガイド"
+      },
+      "extraction": {
+        "title": "ARC Raiders 抽出のヒント",
+        "description": "ARC Raiders 抽出メカニクスをマスターし、生存率を最大化しましょう"
+      },
+      "loadout": {
+        "title": "ARC Raiders ロードアウトビルド",
+        "description": "最適化された ARC Raiders 装備と武器ロードアウトの推奨事項"
+      },
+      "map": {
+        "title": "ARC Raiders マップガイド",
+        "description": "詳細な ARC Raiders マップの知識と戦略的な場所ガイド"
+      },
+      "advanced": {
+        "title": "ARC Raiders 高度な戦術",
+        "description": "経験豊富なレイダー向けのプロレベルの ARC Raiders 戦略"
+      }
+    }
+  },
+  "videos": {
+    "title": "ARC Raiders ビデオギャラリー",
+    "description": "最新の ARC Raiders ゲームプレイビデオ、トレーラー、コミュニティコンテンツを視聴しましょう"
+  },
+  "about": {
+    "title": "ARC-Raiders.net について",
+    "mission": {
+      "title": "私たちの使命",
+      "content": "ARC-Raiders.net は、ARC Raiders に関する最も包括的で最新の情報を提供することに専念しています。詳細なガイド、戦略、コミュニティリソースを通じて、すべてのスキルレベルのプレイヤーがゲームをマスターできるよう支援することを目指しています。"
+    },
+    "coverage": {
+      "title": "私たちがカバーするもの",
+      "content": "初心者向けチュートリアルから高度な戦術まで、武器ガイドからマップ戦略まで、ミッションを成功させるために ARC Raiders のあらゆる側面をカバーしています。"
+    }
+  }
+}
